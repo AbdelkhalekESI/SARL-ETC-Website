@@ -837,7 +837,7 @@ a.slide-btn:hover:before, a.slide-btn:active::before {
 .home-aboutus-wrapper {
 	width: 100%;
 	float: left;
-	padding: 65px 0 70px;
+	padding: 65px 0 0;
 }
 /*** About Heading ***/
 .about-text h2 {
@@ -1662,7 +1662,7 @@ span.email-notes{color: #42414f;
 ================================================
  */
 .inner-page-wrapper {
-	padding: 67px 0 70px;
+	padding: 67px 0 0;
 	float: left;
 	width: 100%;
 }

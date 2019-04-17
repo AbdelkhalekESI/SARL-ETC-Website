@@ -19,3 +19,8 @@ Route::get('/contact' , function ()
 {   
     return view('contact');
 })->name('contact');
+
+Route::get('/article' ,function ()
+{
+    return view('article') ; 
+})->name('article') ;

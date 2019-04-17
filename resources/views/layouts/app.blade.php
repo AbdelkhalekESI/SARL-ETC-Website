@@ -104,12 +104,81 @@
 @yield('content')
 <!-- Body end -->
 <div class="footer-wrapper">
-  <div class="copyright-wrapper">
-    <div class="container">
-      <p>&copy; Copyright 2018, Electric Plus | All Rights Reserved.</p>
+    {{-- <div class="footer-top-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-about-info-area footer-top-content">
+              <div class="footer-widget-heading">
+                <h3>About Us</h3>
+              </div>
+              <div class="footer-widget-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem en molestiae quis, maiores explicabo inventore sit quos. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <ul class="footer-social-menu list-inline">
+                  <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-linkedin-square"></i></a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-skype"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-tags-widget">
+              <div class="footer-widget-heading">
+                <h3>Quick Links</h3>
+              </div>
+              <div class="footer-widget-content">
+                <ul class="footer-widget-menu">
+                  <li> <a href="javascript:void(0)">Electrical</a> </li>
+                  <li> <a href="javascript:void(0)">AC</a></li>
+                  <li> <a href="javascript:void(0)">worker</a></li>
+                  <li> <a href="javascript:void(0)">electric</a> </li>
+                  <li> <a href="javascript:void(0)">repairing</a> </li>
+                  <li> <a href="javascript:void(0)">electrician</a> </li>
+                  <li> <a href="javascript:void(0)">Power</a> </li>
+                  <li> <a href="javascript:void(0)">Support</a> </li>
+                  <li> <a href="javascript:void(0)">Security</a> </li>
+                  <li> <a href="javascript:void(0)">Residential</a> </li>
+                  <li> <a href="javascript:void(0)">Repair</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-contact">
+              <div class="footer-widget-heading">
+                <h3>Contact Us</h3>
+              </div>
+              <div class="footer-widget-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <ul class="footer-conatct-menu">
+                  <li> <a href="javascript:void(0)"><i class="fa fa-envelope"></i><span>Email :</span> info@sbtechnosoft.com</a> </li>
+                  <li> <a href="javascript:void(0)"><i class="fa fa-phone"></i> <span>Phone : </span> +1 123 456 7890</a> </li>
+                  <li> <a href="javascript:void(0)"><i class="fa fa-map-o"></i><span>Address :</span> 34 street, NY 10018</a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-instagram">
+              <div class="footer-widget-heading">
+                <h3>Instagram Photos</h3>
+              </div>
+              <div class="footer-instagram-widget footer-widget-content"> <a href="javascript:void(0)"><img src="images/testimonials1.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials2.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials3.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials3.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials2.png" alt=""></a> <a href="#"><img src="images/testimonials1.png" alt=""></a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> --}}
+    <div class="copyright-wrapper">
+      <div class="container">
+      <p>&copy; Copyright 2019, {{config('app.name')}} | Tous les droits sont réservés.</p>
+      </div>
     </div>
   </div>
-</div>
 <!-- Footer Wrapper End --> 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="assets/jquery/jquery-3.1.1.min.js"></script> 

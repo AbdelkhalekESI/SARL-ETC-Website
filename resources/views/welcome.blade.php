@@ -308,7 +308,7 @@
 <div class="testimonials-wrapper">
   <div class="container">
     <div class="title">
-      <h2>Client Testimonials</h2>
+      <h2>Témoignages de clients</h2>
       <span></span> <img src="images/title-icon.png" alt=""></div>
     <div class="col-lg-8 col-lg-offset-2">
       <div id="testimonial" class="owl-carousel owl-theme">
@@ -357,42 +357,39 @@
 <div class="blog-wrapper" id="blog">
   <div class="container">
     <div class="title">
-      <h2>Our Blog</h2>
+      <h2>Notre blog</h2>
       <span></span> <img src="images/title-icon.png" alt=""></div>
     <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="single-blog-section"> <img src="images/blog1.jpg" alt="">
           <div class="blog-info">
             <div class="date-box">
-              <div class="inner">
-                <div class="date"> <b>19</b> July </div>
-              </div>
+              
             </div>
             <div class="content">
               <h3>Blog Title </h3>
               <div class="collor-bottom-two"></div>
             </div>
-            <a href=""><i class="fa fa-calendar" aria-hidden="true"></i>15 aug 2017 </a> <a href=""><i class="fa fa-user" aria-hidden="true"></i>Admin </a> <a href=""><i class="fa fa-user" aria-hidden="true"></i>Web design </a>
+            <a href=""><i class="fa fa-calendar" aria-hidden="true"></i>17 Avril 2019 </a> 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi..... </p>
-            <button class="btn btn-default unicod-btn-black" type="submit">read more</button>
-          </div>
+            <a href="{{route('article')}}"><button class="btn btn-default unicod-btn-black" type="submit">Lire la suite</button>
+            </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6">
         <div class="single-blog-section"> <img src="images/blog2.jpg" alt="">
           <div class="blog-info">
             <div class="date-box">
-              <div class="inner">
-                <div class="date"> <b>19</b> July </div>
-              </div>
+              
             </div>
             <div class="content">
               <h3>Blog Title </h3>
               <div class="collor-bottom-two"></div>
             </div>
-            <a href=""><i class="fa fa-calendar" aria-hidden="true"></i>15 aug 2017 </a> <a href=""><i class="fa fa-user" aria-hidden="true"></i>Admin </a> <a href=""><i class="fa fa-user" aria-hidden="true"></i>Web design </a>
+            <a href=""><i class="fa fa-calendar" aria-hidden="true"></i>17 Avril 2019 </a> 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi..... </p>
-            <button class="btn btn-default unicod-btn-black" type="submit">read more</button>
+            <a href="{{route('article')}}"><button class="btn btn-default unicod-btn-black" type="submit">Lire la suite</button>
+            </a>
           </div>
         </div>
       </div>
@@ -400,18 +397,16 @@
         <div class="single-blog-section"> <img src="images/blog3.jpg" alt="">
           <div class="blog-info">
             <div class="date-box">
-              <div class="inner">
-                <div class="date"> <b>19</b> July </div>
-              </div>
+              
             </div>
             <div class="content">
               <h3>Blog Title </h3>
               <div class="collor-bottom-two"></div>
             </div>
-            <a href=""><i class="fa fa-calendar" aria-hidden="true"></i>15 aug 2017 </a> <a href=""><i class="fa fa-user" aria-hidden="true"></i>Admin </a> <a href=""><i class="fa fa-user" aria-hidden="true"></i>Web design </a>
+            <a href=""><i class="fa fa-calendar" aria-hidden="true"></i>17 Avril 2019 </a> 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi..... </p>
-            <button class="btn btn-default unicod-btn-black" type="submit">read more</button>
-          </div>
+            <a href="{{route('article')}}"><button class="btn btn-default unicod-btn-black" type="submit">Lire la suite</button>
+            </div>
         </div>
       </div>
     </div>
