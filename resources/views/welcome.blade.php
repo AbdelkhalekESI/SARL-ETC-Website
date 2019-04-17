@@ -79,14 +79,15 @@
       </div>
       <div class="col-md-7">
         <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio condimentum, suscipit elit non,sodales mauris. Aliquam erat volutpat. Integer eu risus consequat, tempus odio nec, hendrerit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio condimentum, suscipit elit non,sodales mauris. Aliquam erat volutpat. Integer eu risus consequat, tempus odio nec, hendrerit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Nos techniciens sont spécialisés en industriel. Nous comptons parmi nos clients plusieurs Multinationales avec qui nous avons eu la chance de faire des projets d'envergures.</p>
+          <p>Que vous ayez besoin pour l'entretien ou la réparation de vos systèmes électrique, pour des travaux de rénovation ou de construction nous saurons satisfaire vos demandes.</p>
           <ul class="about-list">
-            <li><i class="bi bi-tick"></i>Lorem ipsum dolor sit amet</li>
-            <li><i class="bi bi-tick"></i>Integer eu risus consequat</li>
+            <li><i class="bi bi-tick"></i>Conception et installation de contrôles et de la puissance</li>
+            <li><i class="bi bi-tick"></i>Instrumentation</li>
           </ul>
 		   <ul class="about-list">
-            <li><i class="bi bi-tick"></i>Lorem ipsum dolor sit amet</li>
-            <li><i class="bi bi-tick"></i>Integer eu risus consequat</li>
+            <li><i class="bi bi-tick"></i>Conception de plan et installation de sécurité machines</li>
+            <li><i class="bi bi-tick"></i>Location de technicien et d'électricien</li>
           </ul>
       </div>
     </div>
@@ -97,34 +98,34 @@
 <div class="counters">
   <div class="container">
     <div class="row">
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="counter">
           <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
           <div class="number animateNumber" data-num="5325"> <span>5325</span></div>
-          <p>Hours of Work</p>
+          <p>Heures de travail</p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="counter">
           <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
           <div class="number animateNumber" data-num="160"> <span>160</span></div>
-          <p>Satisfied Clients</p>
+          <p>Clients satisfaits</p>
         </div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <div class="counter">
           <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
           <div class="number animateNumber" data-num="530"> <span>530</span></div>
-          <p>Projects Completed</p>
+          <p>Projets terminés</p>
         </div>
       </div>
-      <div class="col-sm-3">
+      {{-- <div class="col-sm-3">
         <div class="counter">
           <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
           <div class="number animateNumber" data-num="49"> <span>49</span></div>
           <p>Awards Won</p>
         </div>
-      </div>
+      </div> --}}
     </div>
   </div>
 </div>
@@ -133,13 +134,13 @@
 <div class="home-services-wrapper" id="services">
   <div class="container">
     <div class="title">
-      <h2>Our Services</h2>
+      <h2>Nos services</h2>
       <span></span> <img src="images/title-icon.png" alt=""></div>
     <div class="row">
       <div class="col-md-4 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"> <i class="bi bi-home" aria-hidden="true"></i>
-            <h3 class="title">Residential Services</h3>
+            <h3 class="title">Services résidentiels</h3>
           </div>
           <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque, cupiditate debitis dolorem et fugit hic iusto maxime numquam officia. </p>
         </div>
@@ -147,7 +148,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"> <i class="bi bi-spark" aria-hidden="true"></i>
-            <h3 class="title">Commercial Service</h3>
+            <h3 class="title">Service commercial</h3>
           </div>
           <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque, cupiditate debitis dolorem et fugit hic iusto maxime numquam officia. </p>
         </div>
@@ -155,7 +156,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"> <i class="bi bi-table-lamp" aria-hidden="true"></i>
-            <h3 class="title">Industrial service</h3>
+            <h3 class="title">Service Industriel</h3>
           </div>
           <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque, cupiditate debitis dolorem et fugit hic iusto maxime numquam officia. </p>
         </div>
@@ -163,7 +164,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"> <i class="bi bi-worker-cap" aria-hidden="true"></i>
-            <h3 class="title">Electrical Repair</h3>
+            <h3 class="title"> Réparation électrique</h3>
           </div>
           <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque, cupiditate debitis dolorem et fugit hic iusto maxime numquam officia. </p>
         </div>
@@ -171,7 +172,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"> <i class="bi bi-video-cam" aria-hidden="true"></i>
-            <h3 class="title">Electrical Security</h3>
+            <h3 class="title">Sécurité électrique</h3>
           </div>
           <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque, cupiditate debitis dolorem et fugit hic iusto maxime numquam officia. </p>
         </div>
@@ -179,7 +180,7 @@
       <div class="col-md-4 col-sm-6">
         <div class="serviceBox">
           <div class="service-icon"> <i class="bi bi-bulb" aria-hidden="true"></i>
-            <h3 class="title">Electrical Support</h3>
+            <h3 class="title">Assistance électrique</h3>
           </div>
           <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam cumque, cupiditate debitis dolorem et fugit hic iusto maxime numquam officia. </p>
         </div>
@@ -193,9 +194,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h3>Do you need any help for electrical maintenance?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-		 <a href="javascript:void(0)" class="btn">Contact Us</a>
+        <h3>Avez-vous besoin d'aide pour la maintenance électrique?</h3>
+      <a href="{{route('contact')}}" class="btn">CONTACTEZ NOUS</a>
       </div>
     </div>
   </div>
