@@ -1,119 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title> {{ config('app.name')}} </title>
-<!-- Bootstrap CSS -->
-<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- Font Awesome CSS-->
-<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
- -->
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css
-
-">
- <!-- bicon CSS -->
-<link rel="stylesheet" href="assets/css/bicon.min.css">
-<!-- Mobile Menu Css -->
-<link href="assets/css/meanmenu.css" rel="stylesheet">
-<!-- Owl Carousel -->
-<link href="assets/owl-carousel/css/owl.carousel.css" rel="stylesheet">
-<link href="assets/owl-carousel/css/owl.theme.css" rel="stylesheet">
-<!-- images popup CSS -->
-<link href="assets/css/magnific-popup.css" type="text/css" rel="stylesheet" />
-<!-- Custom CSS -->
-<link href="css/style.css" rel="stylesheet">
-<!-- Animate CSS -->
-<link href="assets/animate/animate.css" rel="stylesheet">
-<!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-<!-- Pre Loader -->
-<div id="dvLoading"></div>
-<!-- Header Start -->
-<header class="wow fadeInDown" data-offset-top="197" data-spy="affix">
-  <div class="top-wrapper hidden-xs">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-9">
-          <div class="top-header-add">
-            <ul>
-              <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Address :</span> </li>
-              <li><i class="fa fa-phone" aria-hidden="true"></i><span>Appelez nous :</span> +213 541327288</li>
-              {{-- <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="javascript:void(0)"><span>Email :</span> info@sbtechnosoft.com</a></li> --}}
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-3 hidden-sm">
-          {{-- <ul class="header-social-icons">
-            <li class="facebook"><a href="javascript:void(0)" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li class="twitter"><a href="javascript:void(0)" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li class="linkedin"><a href="javascript:void(0)" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li class="pinterest"><a href="javascript:void(0)" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-            <li class="google-plus"><a href="javascript:void(0)" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-            <li class="youtube"><a href="javascript:void(0)" target="_blank"><i class="fa fa-youtube"></i></a></li>
-            <li class="dribbble"><a href="javascript:void(0)" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-          </ul> --}}
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="logo-bar">
-    <div class="container"> 
-      <!-- Logo --> 
-      <!-- Navigation -->
-      <div class="col-md-12 col-sm-12  col-xs-12 mainmenu-area no-padding">
-        <nav class="navbar navbar-default mean-nav"> 
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="ElectricalPlus"/></a> </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="mobile-menu nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about-us.html">About Us</a></li>
-              <li><a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <i class="fa hover-inn fa-caret-down"></i></a>
-                <ul class="sub-menu">
-                  <li><a href="normal-services.html">Normal Service</a></li>
-                  <li><a href="services-details.html">Services Details</a></li>
-                </ul>
-              </li>
-              <li> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <i class="fa hover-inn fa-caret-down"></i></a>
-                <ul class="sub-menu">
-                  <li><a href="our-team.html">Our Team</a></li>
-                  <li><a href="faq.html">FAQ</a></li>
-                  <li><a href="404.html">404</a></li>
-                  <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-              </li>
-              <li> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <i class="fa hover-inn hover-inn fa-caret-down"></i></a>
-                <ul class="sub-menu">
-                  <li><a href="blog-list.html">Blog List</a></li>
-                  <li><a href="blog-details.html">Blog Details</a></li>
-                </ul>
-              </li>
-              <li> <a href="contact-us.html">Contact Us</a> </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse --> 
-        </nav>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- Header End --> 
-<!--Home Slider Start -->
+@extends('layouts.app')
+@section('content')
+    <!--Home Slider Start -->
 <div class="home-slider-area">
   <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -130,9 +17,9 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                    <h2>Electric Plus <span>Electrical Services</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                    <a class="slide-btn" href="javascript:void(0)">Contact Us</a></div>
+                    <h2>{{config('app.name')}}<span> - Services électriques</span></h2>
+                    <p>Faites affaires avec des électriciens expérimentés pour votre commerce!</p>
+                  <a class="slide-btn" href="{{route('contact')}}">Contactez nous</a></div>
                 </div>
               </div>
             </div>
@@ -148,10 +35,10 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                    <h2>Electric Plus <span>Electrical Services</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                    <a class="slide-btn" href="javascript:void(0)">Contact Us</a></div>
-                </div>
+                    <h2>{{config('app.name')}}<span> - Services électriques</span></h2>
+                    <p>Faites affaires avec des électriciens expérimentés pour votre commerce!</p>
+                    <a class="slide-btn" href="{{route('contact')}}">Contactez nous</a></div>
+                  </div>
               </div>
             </div>
           </div>
@@ -166,10 +53,10 @@
               <div class="container">
                 <div class="row">
                   <div class="col-md-12">
-                    <h2>Electric Plus <span>Electrical Services</span></h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
-                    <a class="slide-btn" href="javascript:void(0)">Contact Us</a></div>
-                </div>
+                    <h2>{{config('app.name')}}<span> - Services électriques</span></h2>
+                    <p>Faites affaires avec des électriciens expérimentés pour votre commerce!</p>
+                    <a class="slide-btn" href="{{route('contact')}}">Contactez nous</a></div>
+                  </div>
               </div>
             </div>
           </div>
@@ -180,8 +67,70 @@
   </div>
 </div>
 <!--Home Slider End --> 
+
+<!--Home About us Wrapper End -->
+<div class="home-aboutus-wrapper" id="about-us">
+  <div class="container">
+    <div class="row">
+	 <div class="col-md-5">
+        <div class="about-text">
+		<h2>Bienvenue Au <span>{{config('app.name')}}</span></h2>
+		<img src="images/about-us.jpg" alt=""> </div>
+      </div>
+      <div class="col-md-7">
+        <div class="about-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio condimentum, suscipit elit non,sodales mauris. Aliquam erat volutpat. Integer eu risus consequat, tempus odio nec, hendrerit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio condimentum, suscipit elit non,sodales mauris. Aliquam erat volutpat. Integer eu risus consequat, tempus odio nec, hendrerit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <ul class="about-list">
+            <li><i class="bi bi-tick"></i>Lorem ipsum dolor sit amet</li>
+            <li><i class="bi bi-tick"></i>Integer eu risus consequat</li>
+          </ul>
+		   <ul class="about-list">
+            <li><i class="bi bi-tick"></i>Lorem ipsum dolor sit amet</li>
+            <li><i class="bi bi-tick"></i>Integer eu risus consequat</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Home About us Wrapper End -->  
+<!-- Our counters -->
+<div class="counters">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="counter">
+          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
+          <div class="number animateNumber" data-num="5325"> <span>5325</span></div>
+          <p>Hours of Work</p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="counter">
+          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
+          <div class="number animateNumber" data-num="160"> <span>160</span></div>
+          <p>Satisfied Clients</p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="counter">
+          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
+          <div class="number animateNumber" data-num="530"> <span>530</span></div>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="counter">
+          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
+          <div class="number animateNumber" data-num="49"> <span>49</span></div>
+          <p>Awards Won</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Our counters End --> 
 <!--Home Services Start -->
-<div class="home-services-wrapper">
+<div class="home-services-wrapper" id="services">
   <div class="container">
     <div class="title">
       <h2>Our Services</h2>
@@ -252,69 +201,8 @@
   </div>
 </div>
 <!-- Call to Action End --> 
-<!--Home About us Wrapper End -->
-<div class="home-aboutus-wrapper">
-  <div class="container">
-    <div class="row">
-	 <div class="col-md-5">
-        <div class="about-text">
-		<h2>Welcome to <span>Electric Plus</span></h2>
-		<img src="images/about-us.jpg" alt=""> </div>
-      </div>
-      <div class="col-md-7">
-        <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio condimentum, suscipit elit non,sodales mauris. Aliquam erat volutpat. Integer eu risus consequat, tempus odio nec, hendrerit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget odio condimentum, suscipit elit non,sodales mauris. Aliquam erat volutpat. Integer eu risus consequat, tempus odio nec, hendrerit risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <ul class="about-list">
-            <li><i class="bi bi-tick"></i>Lorem ipsum dolor sit amet</li>
-            <li><i class="bi bi-tick"></i>Integer eu risus consequat</li>
-          </ul>
-		   <ul class="about-list">
-            <li><i class="bi bi-tick"></i>Lorem ipsum dolor sit amet</li>
-            <li><i class="bi bi-tick"></i>Integer eu risus consequat</li>
-          </ul>
-          <a href="javascript:void(0)" class="btn">Read More</a> </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Home About us Wrapper End --> 
-<!-- Our counters -->
-<div class="counters">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="counter">
-          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
-          <div class="number animateNumber" data-num="5325"> <span>5325</span></div>
-          <p>Hours of Work</p>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="counter">
-          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
-          <div class="number animateNumber" data-num="160"> <span>160</span></div>
-          <p>Satisfied Clients</p>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="counter">
-          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
-          <div class="number animateNumber" data-num="530"> <span>530</span></div>
-          <p>Projects Completed</p>
-        </div>
-      </div>
-      <div class="col-sm-3">
-        <div class="counter">
-          <div class="counter-icon-box"><i><img src="images/banner-icon-normal.png" alt=""></i></div>
-          <div class="number animateNumber" data-num="49"> <span>49</span></div>
-          <p>Awards Won</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Our counters End --> 
-<!-- Our Team Wrapper Start -->
+
+{{-- <!-- Our Team Wrapper Start -->
 <div class="our-team-wrapper">
   <div class="container">
     <div class="title">
@@ -414,7 +302,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> --}}
 <!-- Our Team Wrapper End --> 
 <!-- Testimonials Wrapper Start -->
 <div class="testimonials-wrapper">
@@ -466,7 +354,7 @@
 </div>
 <!-- Testimonials Wrapper End --> 
 <!-- Blog Wrapper End -->
-<div class="blog-wrapper">
+<div class="blog-wrapper" id="blog">
   <div class="container">
     <div class="title">
       <h2>Our Blog</h2>
@@ -530,93 +418,4 @@
   </div>
 </div>
 <!-- Blog Wrapper End --> 
-<!-- Footer Wrapper Start -->
-<div class="footer-wrapper">
-  <div class="footer-top-area">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-about-info-area footer-top-content">
-            <div class="footer-widget-heading">
-              <h3>About Us</h3>
-            </div>
-            <div class="footer-widget-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem en molestiae quis, maiores explicabo inventore sit quos. </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-              <ul class="footer-social-menu list-inline">
-                <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="javascript:void(0)"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="javascript:void(0)"><i class="fa fa-linkedin-square"></i></a></li>
-                <li><a href="javascript:void(0)"><i class="fa fa-skype"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-tags-widget">
-            <div class="footer-widget-heading">
-              <h3>Quick Links</h3>
-            </div>
-            <div class="footer-widget-content">
-              <ul class="footer-widget-menu">
-                <li> <a href="javascript:void(0)">Electrical</a> </li>
-                <li> <a href="javascript:void(0)">AC</a></li>
-                <li> <a href="javascript:void(0)">worker</a></li>
-                <li> <a href="javascript:void(0)">electric</a> </li>
-                <li> <a href="javascript:void(0)">repairing</a> </li>
-                <li> <a href="javascript:void(0)">electrician</a> </li>
-                <li> <a href="javascript:void(0)">Power</a> </li>
-                <li> <a href="javascript:void(0)">Support</a> </li>
-                <li> <a href="javascript:void(0)">Security</a> </li>
-                <li> <a href="javascript:void(0)">Residential</a> </li>
-                <li> <a href="javascript:void(0)">Repair</a> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-contact">
-            <div class="footer-widget-heading">
-              <h3>Contact Us</h3>
-            </div>
-            <div class="footer-widget-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <ul class="footer-conatct-menu">
-                <li> <a href="javascript:void(0)"><i class="fa fa-envelope"></i><span>Email :</span> info@sbtechnosoft.com</a> </li>
-                <li> <a href="javascript:void(0)"><i class="fa fa-phone"></i> <span>Phone : </span> +1 123 456 7890</a> </li>
-                <li> <a href="javascript:void(0)"><i class="fa fa-map-o"></i><span>Address :</span> 34 street, NY 10018</a> </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-instagram">
-            <div class="footer-widget-heading">
-              <h3>Instagram Photos</h3>
-            </div>
-            <div class="footer-instagram-widget footer-widget-content"> <a href="javascript:void(0)"><img src="images/testimonials1.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials2.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials3.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials3.png" alt=""></a> <a href="javascript:void(0)"><img src="images/testimonials2.png" alt=""></a> <a href="#"><img src="images/testimonials1.png" alt=""></a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="copyright-wrapper">
-    <div class="container">
-      <p>&copy; Copyright 2018, Electric Plus | All Rights Reserved.</p>
-    </div>
-  </div>
-</div>
-<!-- Footer Wrapper End --> 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="assets/jquery/jquery-3.1.1.min.js"></script> 
-<script src="assets/jquery/jquery.meanmenu.js"></script> 
-<script src="assets/jquery/plugins.js"></script> 
-<script src="assets/number-animation/jquery.animateNumber.min.js"></script> 
-<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
-<script src="assets/owl-carousel/js/owl.carousel.js"></script> 
-<script src="assets/wow/wow.min.js"></script> 
-<script src="assets/jquery/jquery.magnific-popup.js"></script>
-<script src="js/custom.js"></script>
-</body>
-</html>
+@endsection
